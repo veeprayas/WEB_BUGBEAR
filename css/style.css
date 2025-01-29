@@ -233,7 +233,7 @@ nav .nav-links li a {
 
 @media only screen and (min-width: 1024px) {
   .hero-banner {
-    height: 375px;
+    height: 400px;
     background: #001549;
   }
 
@@ -262,16 +262,14 @@ nav .nav-links li a {
 
 .flex-section .text {
   color: white;
-  text-align: justify;
+  text-align: left;
   margin-top: 60px;
-
 }
 
 .flex-section .image {
   text-align: right;
   margin-top: 60px;
   margin-right: 120px;
-
 }
 
 .flex-section img {
@@ -282,7 +280,6 @@ nav .nav-links li a {
 .flex-section h2 {
   font-size: 40px;
   font-weight: 700;
-
 }
 
 .flex-section .sub {
@@ -531,6 +528,7 @@ nav .nav-links li a {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 30px;
   margin: 20px auto;
+  flex-wrap: wrap;
 }
 
 .slider-buttons {
@@ -838,7 +836,7 @@ nav .nav-links li a {
 }
 
 .teach {
-  padding: 100px 392px 100px 395px;
+  padding: 50px 80px;
 }
 
 .course-stats svg {
@@ -1160,7 +1158,7 @@ nav .nav-links li a {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .slider {
     width: 100%;
     padding: 20px;
